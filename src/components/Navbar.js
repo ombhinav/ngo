@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className='flex justify-center list-none bg-black text-white pb-4'>
-      <li className=' text-2xl mr-auto pl-10 pt-4'>
+      <li className=' text-2xl mr-auto pl-[90px] pt-4'>
         <a href='/'> Home</a> 
       </li>
       <li className='text-2xl pt-4 pr-10'>
@@ -18,7 +18,7 @@ const Navbar = () => {
       <li className=' text-2xl pt-4 pr-10 '>
         <a href='/'>Events</a>
       </li>
-      <li className='text-2xl pt-4 pr-10 '>
+      <li className='text-2xl pt-4 pr-[90px] '>
         <a href='/'>Blogs</a>
       </li>
     </div>

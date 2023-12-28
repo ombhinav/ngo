@@ -20,3 +20,7 @@ video{
     position: absolute;
   
 }
+
+.bgcolor-grey{
+    background: #ebebeb;
+}

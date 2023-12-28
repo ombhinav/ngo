@@ -12,7 +12,7 @@ import {
 } from "react-router-dom";
 import ContactUs from './components/ContactUs.js';
 import Projects from './components/Projects.js';
-import Volunteer from './components/Volunteer.js';
+import GetInvolved from './components/GetInvolved.js';
 import Blog from './components/Blog.js';
 
 
@@ -34,7 +34,7 @@ const App = () => {
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/Projects" element={<Projects />} />
-        <Route path="/Volunteer" element={<Volunteer />} />
+        <Route path="/GetInvolved" element={<GetInvolved />} />
         <Route path="/Blogs" element={<Blog />} />
 
         

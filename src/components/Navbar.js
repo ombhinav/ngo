@@ -10,16 +10,16 @@ const Navbar = () => {
         <a href='/AboutUs'>About Us</a>
       </li>
       <li className='text-2xl pt-4 pr-10'>
-        <a href='/'>Projects</a>
+        <a href='/Projects'>Projects</a>
       </li>
       <li className=' text-2xl pt-4 pr-10'>
-        <a href='/'>Volunteer</a>
+        <a href='/Volunteer'>Volunteer</a>
       </li>
       <li className=' text-2xl pt-4 pr-10 '>
-        <a href='/'>Events</a>
+        <a href='/ContactUs'>Contact Us</a>
       </li>
       <li className='text-2xl pt-4 pr-[90px] '>
-        <a href='/'>Blogs</a>
+        <a href='Blogs'>Blogs</a>
       </li>
     </div>
   )

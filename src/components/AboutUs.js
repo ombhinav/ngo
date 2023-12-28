@@ -4,11 +4,11 @@ import about from './about.jpg'
 const AboutUs = () => {
   return (
     <div className ='bgcolor-grey'>
-      <h1 className='text-6xl text-black px-[90px] pt-[90px] '>
+      <h1 className='text-[100px] text-black px-[90px] pt-[90px] '>
       About Us
       </h1>
       <div className='flex flex-row'>
-        <div className=' text-black px-[90px] pt-[80px]'>
+        <div className=' text-black text-[18px] px-[90px] pt-[80px] max-w-[750px]'>
         
           Since our inception in 1990, 
         Save Trees is a non-profit organization passionately committed to the preservation and conservation of <br/> our planet's invaluable natural resources. <br/> 
@@ -21,7 +21,7 @@ const AboutUs = () => {
         <img src={about} alt='aboutUs' className='h-[350px] w-[900px] rounded-xl ' />
         </div>
     </div>
-    <h1 className='text-6xl text-black px-[90px] pt-[60px] pb-[50px] '>
+    <h1 className='text-[100px] text-black px-[90px] pt-[60px] pb-[50px] '>
       Our Mission
       </h1>
       <div className='flex flex-row justify-center py-[50px]'>

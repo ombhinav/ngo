@@ -24,3 +24,13 @@ video{
 .bgcolor-grey{
     background: #ebebeb;
 }
+
+.button-black{
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(58, 54, 54);
+}
+
+.button-blue{
+    background-color: rgb(58, 54, 54);
+}

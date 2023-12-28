@@ -9,8 +9,11 @@ import {
   Route,
   BrowserRouter as Router,
   Routes,
-  Navigate,
 } from "react-router-dom";
+import ContactUs from './components/ContactUs.js';
+import Projects from './components/Projects.js';
+import Volunteer from './components/Volunteer.js';
+import Blog from './components/Blog.js';
 
 
 const App = () => {
@@ -29,6 +32,11 @@ const App = () => {
         <Route  path="/" element={<Home />} />
         
         <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Volunteer" element={<Volunteer />} />
+        <Route path="/Blogs" element={<Blog />} />
+
         
       </Routes>
     </Router>

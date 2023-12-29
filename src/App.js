@@ -19,12 +19,6 @@ import Blog from './components/Blog.js';
 const App = () => {
   return (
       <>
-    {/* <div>
-      <Navbar/>
-      <Home/>
-      <CoreValues/>
-      
-    </div> */}
     <Router>
     <Navbar/>
       <Routes>

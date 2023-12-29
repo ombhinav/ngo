@@ -23,7 +23,7 @@ const Home = () => {
       
       <div>
         {/* <img src={tree} alt="discount" className='w-[640px] h-[380px] rounded-lg ' /> */}
-        <button type="button" class="py-4 pt-4 px-6 text-[24px] mt-[350px] mr-[210px] rounded-[10px] border border-white-500 ">Join Now  <span className='text-2xl'>→ </span></button>
+        <button type="button" className="py-3 px-6 text-[24px] mt-[350px] mr-[210px] rounded-[10px] border border-white-500" >Join Now  <span className='text-2xl'>→ </span></button>
       </div>
 
     </div>

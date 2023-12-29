@@ -1,27 +1,28 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div className='flex justify-center list-none bg-black text-white pb-4'>
       <li className=' text-2xl mr-auto pl-[90px] pt-4'>
-        <a href='/'> Home</a> 
+        <Link to='/'> Home</Link> 
       </li>
       <li className='text-2xl pt-4 pr-10  '>
-        <a href='Blogs'>Blogs</a>
+        <Link to='Blogs'>Blogs</Link>
       </li>
     
       <li className=' text-2xl pt-4 pr-10'>
-        <a href='/GetInvolved'>Get Involved</a>
+        <Link to='/GetInvolved'>Get Involved</Link>
       </li>
       <li className='text-2xl pt-4 pr-10'>
-        <a href='/Projects'>Projects</a>
+        <Link to='/Projects'>Projects</Link>
       </li>
       <li className=' text-2xl pt-4 pr-10 '>
-        <a href='/ContactUs'>Contact Us</a>
+        <Link to='/ContactUs'>Contact Us</Link>
       </li>
       
       <li className='text-2xl pt-4 pr-[90px]'>
-        <a href='/AboutUs'>About Us</a>
+        <Link to='/AboutUs'>About Us</Link>
       </li>
     </div>
   )
